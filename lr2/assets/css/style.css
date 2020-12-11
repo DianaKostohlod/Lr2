@@ -1,0 +1,106 @@
+.absoluteCentralizeContent{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+}
+
+.horizontalCentralizeContentMainPage{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.horizontalCentralizeContentProfile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.buttons{
+    float: right;
+    margin: 0px 0px 0px 5px;
+}
+
+img{
+    margin-bottom: 10px;
+}
+
+.img-group{
+    margin-bottom: 40px;
+}
+
+label{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.profile{
+    width:500px;
+    float: left;
+}
+
+input[type=text],  input[type=password], input[type=email] {
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid grey;
+  margin: 20px 0px;
+}
+.custom-select{
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid grey;
+  margin: 20px 0px;
+}
+textarea {
+  width: 90%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid grey;
+  resize: none;
+  margin: 20px 0px;
+}
+
+select {
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid grey;
+  margin: 20px 0px;
+}
+
+.phone{
+    width:78%;
+    float:left;
+}
+ button[type=submit] {
+  background-color: lightsteelblue;
+  border: none;
+  color: black;
+  padding: 5px 20px;
+  text-decoration: none;
+  margin: 5px 0px;
+
+}
+
+small{
+    margin: 0px 93px 0px 0px;
+    color:gray;
+    font-size: 12px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td, tr {
+    border: 1px solid brown;
+    text-align: center;
+}
+
+th{
+    background-color: lightblue;
+    text-decoration-color: black;
+    color: black;
+}
